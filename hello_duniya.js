@@ -19,3 +19,11 @@ for (var i=1;i<10;i++)
 {
 	console.log("Hello" + i);
 }
+// simple declaration of an array
+var arr = ['Sunjeet','Ruby','Etaash','Ajooni']
+//loop through and log all the elements of the array
+for (var i=0;i<arr.length;i++)
+{
+	console.log(arr[i]);
+}
+
