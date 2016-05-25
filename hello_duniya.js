@@ -24,6 +24,21 @@ var arr = ['Sunjeet','Ruby','Etaash','Ajooni']
 //loop through and log all the elements of the array
 for (var i=0;i<arr.length;i++)
 {
-	console.log(arr[i]);
+	console.log("Hello , I am " + arr[i]);
 }
+
+var arr1 =[];
+console.log(arr1);
+//add element
+arr1.push("sting 1");
+arr1.push("string 2");
+arr1.push("r245255");
+console.log(arr1);
+// removes the last element
+arr1.pop();
+console.log(arr1);
+// second position
+console.log(arr1[1]);
+
+
 
