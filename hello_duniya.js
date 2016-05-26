@@ -40,5 +40,19 @@ console.log(arr1);
 // second position
 console.log(arr1[1]);
 
+function sayNamaste()
+{
+	console.log("Hello 1");
+	console.log(232424);	
+}
+
+// calling function by its name
+sayNamaste();
+
+
+
+
+
+ 
 
 
