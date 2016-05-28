@@ -49,6 +49,26 @@ function sayNamaste()
 // calling function by its name
 sayNamaste();
 
+//object and it's propoerties and method
+var user = {
+	first_name: 'Sunjeet',
+	last_name: 'mountain main',
+	sayHello: function()
+	{
+		console.log("Namanste from an object's method")
+	}
+};
+
+//invoke the object andit's propoerties and methods
+console.log(user.first_name);
+console.log(user.last_name);
+user.sayHello();
+
+//you can add properties outside the declaration of an object
+user.email = "kukkar_murga@kfc.com";
+
+// now this propoery should have been added in the object, log it and see
+console.log(user);
 
 
 
