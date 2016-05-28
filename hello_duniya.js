@@ -51,26 +51,67 @@ sayNamaste();
 
 //object and it's propoerties and method
 var user = {
-	first_name: 'Sunjeet',
-	last_name: 'mountain main',
-	sayHello: function()
-	{
-		console.log("Namanste from an object's method")
-	}
-};
+
+    first_name: 'Sunjeet',
+
+    last_name: 'mountain main',
+
+    sayBye: function() {
+
+       console.log("Bye from an object's method")
+
+    },
+
+	sayHello: function() {
+
+        console.log("Namanste from an object's method")
+
+    }
+   
+}
+
+var user_new = {
+
+    name: "Guest",
+
+    askName: function() {
+
+        this.name = prompt("Your name?")
+
+    },
+
+    sayHi: function() {
+
+        alert('Hi, my name is '+this.name)
+
+    }
+
+}
+
 
 //invoke the object andit's propoerties and methods
 console.log(user.first_name);
 console.log(user.last_name);
 user.sayHello();
+//user.sayBye();
 
 //you can add properties outside the declaration of an object
-user.email = "kukkar_murga@kfc.com";
+user.email = "kukkar_murga@kfc.comdhdjdj";
+//you can add methods outside the declaratio of an object
 
 // now this propoery should have been added in the object, log it and see
 console.log(user);
 
 // push a change for github  to sync
+
+
+
+
+ 
+
+
+
+
 
 
  
