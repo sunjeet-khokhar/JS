@@ -104,7 +104,15 @@ console.log(user);
 
 // push a change for github  to sync
 
-
+// JavaScript manipulation of the DOM
+//Selecting emelment by Id
+var heading = document.getElementById('big-daddy-heading');
+//Selecting element by Class name
+var pclass = document.getElementsByClassName('big-p');
+//list all elements in the DOM that have the css class big-p
+var pclass_query = document.querySelectorAll(".big-p");
+//Adding html using JS!
+document.write("<h3>Adding a HTML hear through JavaScript</h3>")
 
 
  
